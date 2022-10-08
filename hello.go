@@ -6,6 +6,8 @@ func main() {
 
 	hello()
 	addnumbers(3, 5, 7)
+	result := double(10)
+	fmt.Println(result)
 
 }
 
@@ -22,4 +24,10 @@ func addnumbers(x, y, z int) {
 
 	fmt.Println("The results are:", a, b, c)
 
+}
+
+func double(x int) int {
+
+	y := x * 2
+	return y
 }
